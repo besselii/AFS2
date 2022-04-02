@@ -1,0 +1,1588 @@
+<style>
+  
+  *{ 
+    box-sizing: border-box;
+    }
+  
+  
+  body{
+    background-color: #ED9188;
+    margin: 0;
+    padding: 40px;
+    }
+  
+  .frame{background-color: orange;
+    width: 100%;
+    height: 100%;
+    border: 3px solid red;
+    }
+  
+  .frame > div {
+    position: absolute;
+    }
+  
+  .h20{
+    height: 28px;
+    }
+  
+  .square{
+    width: 10%;
+    height: 20px;
+    background: linear-gradient(#641E16, #A81506);
+    }
+  
+  .square2{
+    width: 10%;
+    left: 10%;
+    background: linear-gradient(#A81506, #641E16);
+    }
+  
+  .square3{
+    width: 10%;
+    left: 17%;
+    background: linear-gradient(#641E16, #A81506);
+    }
+  
+  .square4{
+    width: 10%;
+    left: 25%;
+    background: linear-gradient(#A81506, #641E16);
+    }
+  
+  .square5{
+    width: 10%;
+    left: 32%;
+    background: linear-gradient(#641E16, #A81506);
+    }
+  
+  .square6{
+    width: 10%;
+    left: 39%;
+     background: linear-gradient(#A81506, #641E16);
+    }
+  
+  .square7{
+    width: 10%;
+    left: 45%;
+    background: linear-gradient(#641E16, #A81506);
+    }
+  
+  .square8{
+    width: 10%;
+    left: 52%;
+    background: linear-gradient(#A81506, #641E16);
+    }
+  
+  .square9{
+    width: 10%;
+    left: 59%;
+    background: linear-gradient(#641E16, #A81506);
+    }
+  
+  .square10{
+    width: 10%;
+    left: 66%;
+    background: linear-gradient(#A81506, #641E16);
+    }
+  
+  .square11{
+    width: 10%;
+    left: 72%;
+    background: linear-gradient(#641E16, #A81506);
+    }
+  
+  .square12{
+    width: 10%;
+    left: 78%;
+    background: linear-gradient(#A81506, #641E16);
+    }
+
+  .square13{
+    width: 10%;
+    left: 85%;
+    background: linear-gradient(#641E16, #A81506);
+    }
+  
+  .square14{
+    width: 6%;
+    right: 43px;
+    background: linear-gradient(#A81506, #641E16);
+    }
+  
+  .square15{
+    width: 10%;
+    bottom: 90.9%;
+    background: linear-gradient(#641E16, #A81506);
+    }
+  
+  .square16{
+    width: 10%;
+    left: 11%;
+    bottom: 90.9%;
+    background: linear-gradient(#A81506, #641E16);
+    }
+  
+  .square17{
+    width: 10%;
+    left: 19%;
+    bottom: 90.9%;
+    background: linear-gradient(#641E16, #A81506);
+    }
+  
+  .square18{
+    width: 10%;
+    left: 27%;
+    bottom: 90.9%;
+    background: linear-gradient(#A81506, #641E16);
+    }
+  
+  .square19{
+    width: 10%;
+    left: 35%;
+    bottom: 90.9%;
+    background: linear-gradient(#641E16, #A81506);
+    }
+  
+  .square20{
+    width: 10%;
+    left: 43%;
+    bottom: 90.9%;
+    background: linear-gradient(#A81506, #641E16);
+    }
+  
+  .square21{
+    width: 10%;
+    left: 50%;
+    bottom: 90.9%;
+    background: linear-gradient(#641E16, #A81506);
+    }
+  
+  .square22{
+    width: 10%;
+    left: 57%;
+    bottom: 90.9%;
+    background: linear-gradient(#A81506, #641E16);
+    }
+  
+  .square23{
+    width: 10%;
+    left: 64%;
+    bottom: 90.9%;
+    background: linear-gradient(#641E16, #A81506);
+    }
+  
+  .square24{
+    width: 10%;
+    left: 71%;
+    bottom: 90.9%;
+    background: linear-gradient(#A81506, #641E16);
+    }
+  
+  .square25{
+    width: 15%;
+    left: 79%;
+    bottom: 90.9%;
+    background: linear-gradient(#641E16, #A81506);
+    }
+  
+  .square26{
+    width: 8.5%;
+    right: 43px;
+    bottom: 90.9%;
+    background: linear-gradient(#A81506, #641E16);
+  }
+  
+  .square27{background-color: white;
+    width: 10%;
+    bottom: 88.7%;
+  }
+  
+  .square28{background-color: black;
+    width: 10%;
+    left: 12%;
+    bottom: 88.7%;
+    }
+  
+  .square29{background-color: red;
+    width: 10%;
+    left: 21%;
+    bottom: 88.7%;
+    }
+  
+  .square30{background-color: green;
+    width: 10%;
+    left: 29%;
+    bottom: 88.7%;
+    }
+  
+  .square31{background-color: blue;
+    width: 10%;
+    left: 37%;
+    bottom: 88.7%;
+    }
+  
+  .square32{background-color: white;
+    width: 10%;
+    left: 45%;
+    bottom: 88.7%;
+    }
+  
+  .square33{background-color: black;
+    width: 10%;
+    left: 52%;
+    bottom: 88.7%;
+    }
+  
+  .square34{background-color: red;
+    width: 10%;
+    left: 59%;
+    bottom: 88.7%;
+    }
+  
+  .square35{background-color: green;
+    width: 10%;
+    left: 66%;
+    bottom: 88.7%;
+    }
+  
+  .square36{background-color: blue;
+    width: 10%;
+    left: 73%;
+    bottom: 88.7%;
+    }
+  
+  .square37{background-color: white;
+    width: 15%;
+    left: 80%;
+    bottom: 88.7%;
+    }
+  
+  .square38{background-color: black;
+    width: 7.5%;
+    right: 43px;
+    bottom: 88.7%;
+    }
+  
+  .square39{background-color: blue;
+    width: 10%;
+    bottom: 86.5%;
+    }
+  
+  .square40{background-color: white;
+    width: 10%;
+    left: 10.5%;
+    bottom: 86.5%;
+    }
+  
+  .square41{background-color: black;
+    width: 10%;
+    left: 17.5%;
+    bottom: 86.5%;
+    }
+  
+  .square42{background-color: red;
+    width: 10%;
+    left: 26%;
+    bottom: 86.5%;
+    }
+  
+  .square43{background-color: green;
+    width: 10%;
+    left: 33%;
+    bottom: 86.5%;
+    }
+  
+  .square44{background-color: blue;
+    width: 10%;
+    left: 40%;
+    bottom: 86.5%;
+    }
+  
+  .square45{background-color: white;
+    width: 10%;
+    left: 47%;
+    bottom: 86.5%;
+    }
+  
+  .square46{background-color: black;
+    width: 10%;
+    left: 55%;
+    bottom: 86.5%;
+    }
+  
+  .square47{background-color: red;
+    width: 10%;
+    left: 62%;
+    bottom: 86.5%;
+    }
+  
+  .square48{background-color: green;
+    width: 10%;
+    left: 69%;
+    bottom: 86.5%;
+    }
+  
+  .square49{background-color: blue;
+    width: 10%;
+    left: 76%;
+    bottom: 86.5%;
+    }
+  
+  .square50{background-color: white;
+    width: 10%;
+    left: 83%;
+    bottom: 86.5%;
+    }
+  
+  .square51{background-color: black;
+    width: 5%;
+    right: 43px;
+    bottom: 86.5%;
+    }
+  
+  .square52{background-color: red;
+    width: 11%;
+    bottom: 84.3%;
+    }
+  
+  .square53{background-color: green;
+    width: 10%;
+    left: 14%;
+    bottom: 84.3%;
+    }
+  
+  .square54{background-color: blue;
+    width: 10%;
+    left: 22.5%;
+    bottom: 84.3%;
+    }
+  
+  .square55{background-color: white;
+    width: 10%;
+    left: 31%;
+    bottom: 84.3%;
+    }
+  
+  .square56{background-color: black;
+    width: 10%;
+    left: 38.5%;
+    bottom: 84.3%;
+    }
+  
+  .square57{background-color: red;
+    width: 10%;
+    left: 46%;
+    bottom: 84.3%;
+    }
+  
+  .square58{background-color: green;
+    width: 10%;
+    left: 53.5%;
+    bottom: 84.3%;
+    }
+  
+  .square59{background-color: blue;
+    width: 10%;
+    left: 60.5%;
+    bottom: 84.3%;
+    }
+  
+  .square60{background-color: white;
+    width: 10%;
+    left: 68%;
+    bottom: 84.3%;
+    }
+  
+  .square61{background-color: black;
+    width: 10%;
+    left: 75%;
+    bottom: 84.3%;
+    }
+  
+  .square62{background-color: red;
+    width: 10%;
+    left: 82%;
+    bottom: 84.3%;
+    }
+  
+  .square63{background-color: green;
+    width: 6.5%;
+    right: 43px;
+    bottom: 84.3%;
+    }
+  
+  .square64{background-color: blue;
+    width: 15%;
+    bottom: 82.1%;
+    }
+  
+  .square65{background-color: white;
+    width: 10%;
+    left: 12.6%;
+    bottom: 82.1%
+    }
+  
+  .square66{background-color: black;
+    width: 10%;
+    left: 20%;
+    bottom: 82.1%;
+    }
+  
+  .square67{background-color: red;
+    width: 10%;
+    left: 28%;
+    bottom: 82.1%;
+    }
+  
+  .square68{background-color: green;
+    width: 10%;
+    left: 36%;
+    bottom: 82.1%;
+    }
+  
+  .square69{background-color: blue;
+    width: 10%;
+    left: 44%;
+    bottom: 82.1%;
+    }
+
+  .square70{background-color: white;
+    width: 10%;
+    left: 51.5%;
+    bottom: 82.1%;
+    }
+  
+  .square71{background-color: black;
+    width: 10%;
+    left: 58%;
+    bottom: 82.1%;
+    }
+  
+  .square72{background-color: red;
+    width: 10%;
+    left: 65%;
+    bottom: 82.1%;
+    }
+  
+  .square73{background-color: green;
+    width: 10%;
+    left: 72%;
+    bottom: 82.1%;
+    }
+
+  .square74{background-color: blue;
+    width: 10%;
+    left: 80.5%;
+    bottom: 82.1%;
+    }
+  
+  .square75{background-color: white;
+    width: 7%;
+    right: 43px;
+    bottom: 82.1%;
+    }
+  
+  .square76{background-color: black;
+    width: 15%;
+    bottom: 79.9%;
+    }
+  
+  .square77{background-color: red;
+    width: 10%;
+    left: 13%;
+    bottom: 79.9%;
+    }
+  
+  .square78{background-color: green;
+    width: 10%;
+    left: 22%;
+    bottom: 79.9%;
+    }
+  
+  .square79{background-color: blue;
+    width: 10%;
+    left: 31.5%;
+    bottom: 79.9%;
+    }
+  
+  .square80{background-color: white;
+    width: 10%;
+    left: 40.8%;
+    bottom: 79.9%;
+    }
+  
+  .square81{background-color: black;
+    width: 10%;
+    left: 50.8%;
+    bottom: 79.9%;
+    }
+  
+  .square82{background-color: red;
+    width: 10%;
+    left: 59.5%;
+    bottom: 79.9%;
+    }
+  
+  .square83{background-color: green;
+    width: 10%;
+    left: 69.5%;
+    bottom: 79.9%;
+    }
+  
+  .square84{background-color: blue;
+    width: 10%;
+    left: 78.7%;
+    bottom: 79.9%;
+    }
+  
+  .square85{background-color: white;
+    width: 8.5%;
+    right: 43px;
+    bottom: 79.9%;
+    }
+  
+  .square86{background-color: black;
+    width: 20%;
+    bottom: 77.7%;
+    }
+  .square87{background-color: red;
+    width: 20%;
+    left: 20%;
+    bottom: 77.7%;
+    }
+  
+  .square88{background-color: green;
+    width: 20%;
+    left: 37%;
+    bottom: 77.7%;
+    }
+  
+  .square89{background-color: blue;
+    width: 20%;
+    left: 52%;
+    bottom: 77.7%;
+    }
+  
+  .square90{background-color: white;
+    width: 20%;
+    left: 67%;
+    bottom: 77.7%;
+    }
+  
+  .square91{background-color: black;
+    width: 14.5%;
+    right: 43px;
+    bottom: 77.7%;
+    }
+  
+  .square92{background-color: red;
+    width: 20%;
+    bottom: 75.5%;
+    }
+  
+  .square93{background-color: green;
+    width: 20%;
+    left: 18%;
+    bottom: 75.5%;
+    }
+  
+  .square94{background-color: blue;
+    width: 20%;
+    left: 34%;
+    bottom: 75.5%;
+    }
+
+  .square95{background-color: white;
+    width: 20%;
+    left: 50%;
+    bottom: 75.5%;
+    }
+  
+  .square96{background-color: black;
+    width: 20%;
+    left: 66%;
+    bottom: 75.5%;
+    }
+  
+  .square97{background-color: red;
+    width: 13.5%;
+    right: 43px;
+    bottom: 75.5%;
+    }
+  
+  .square98{background-color: green;
+    width: 20%;
+    bottom: 73.3%;
+    }
+  
+  .square99{background-color: blue;
+    width: 17%;
+    left: 19%;
+    bottom: 73.3%;
+    }
+  
+  .square100{background-color: white;
+    width: 20%;
+    left: 35%;
+    bottom: 73.3%;
+    }
+  
+  .square101{background-color: black;
+    width: 20%;
+    left: 51%;
+    bottom: 73.3%;
+    }
+  
+  .square102{background-color: red;
+    width: 20%;
+    left: 67%;
+    bottom: 73.3%;
+    }
+  
+  .square103{background-color: green;
+    width: 12.5%;
+    right: 43px;
+    bottom: 73.3%;
+    }
+  
+  .square104{background-color: blue;
+    width: 20%;
+    bottom: 71.1%;
+    }
+  
+  .square105{background-color: white;
+    width: 20%;
+    left: 20%;
+    bottom: 71.1%;
+    }
+  
+  .square106{background-color: black;
+    width: 20%;
+    left: 36%;
+    bottom: 71.1%;
+    }
+  
+  .square107{background-color: red;
+    width: 20%;
+    left: 52%;
+    bottom: 71.1%;
+    }
+  
+  .square108{background-color: green;
+    width: 20%;
+    left: 68%;
+    bottom: 71.1%;
+    }
+  
+  .square109{background-color: blue;
+    width: 11.5%;
+    right: 43px;
+    bottom: 71.1%;
+    }
+  
+  .square110{background-color: white;
+    width: 20%;
+    bottom: 68.9%;
+    }
+  
+  .square111{background-color: black;
+    width: 20%;
+    left: 21%;
+    bottom: 68.9%;
+    }
+  
+  .square112{background-color: red;
+    width: 20%;
+    left: 37%;
+    bottom: 68.9%;
+    }
+  
+  .square113{background-color: green;
+    width: 20%;
+    left: 53%;
+    bottom: 68.9%;
+    }
+  
+  .square114{background-color: blue;
+    width: 20%;
+    left: 69%;
+    bottom: 68.9%;
+    }
+  
+  .square115{background-color: white;
+    width: 10.5%;
+    right: 43px;
+    bottom: 68.9%;
+    }
+  
+  .square116{background-color: black;
+    width: 17%;
+    bottom: 66.7%;
+    }
+  
+  .square117{background-color: red;
+    width: 17%;
+    left: 20%;
+    bottom: 66.7%;
+    }
+  
+  .square118{background-color: green;
+    width: 20%;
+    left: 20%;
+    bottom: 66.7%;
+    }
+  
+  .square119{background-color: blue;
+    width: 20%;
+    left: 36%;
+    bottom: 66.7%;
+    }
+  
+  .square120{background-color: white;
+    width: 20%;
+    left: 52%;
+    bottom: 66.7%;
+    }
+  
+  .square121{background-color: black;
+    width: 20%;
+    left: 68%;
+    bottom: 66.7%;
+    }
+  
+  .square122{background-color: red;
+    width: 11.5%;
+    right: 43px;
+    bottom: 66.7%;
+    }
+  
+  .square123{background-color: green;
+    width: 20%;
+    bottom: 64.5%;
+    }
+  
+  .square124{background-color: blue;
+    width: 20%;
+    left: 19%;
+    bottom: 64.5%;
+    }
+  
+  .square125{background-color: white;
+    width: 20%;
+    left: 35%;
+    bottom: 64.5%;
+    }
+  
+  .square126{background-color: black;
+    width: 20%;
+    left: 51%;
+    bottom: 64.5%;
+    }
+  
+  .square127{background-color: red;
+    width: 20%;
+    left: 67%;
+    bottom: 64.5%;
+    }
+  
+  .square128{background-color: green;
+    width: 12.5%;
+    right: 43px;
+    bottom: 64.5%;
+    }
+  
+  .square129{background-color: blue;
+    width: 20%;
+    bottom: 62.5%;
+    }
+  
+  .square130{background-color: white;
+    width: 20%;
+    left: 20%;
+    bottom: 62.5%;
+    }
+  
+  .square131{background-color: black;
+    width: 20%;
+    left: 36%;
+    bottom: 62.5%;
+    }
+  
+  .square132{background-color: red;
+    width: 20%;
+    left: 52%;
+    bottom: 62.5%;
+    }
+  
+  .square133{background-color: green;
+    width: 20%;
+    left: 68%;
+    bottom: 62.5%;
+    }
+  
+  .square134{background-color: blue;
+    width: 11.5%;
+    right: 43px;
+    bottom: 62.5%;
+    }
+  
+  .square135{background-color: white;
+    width: 27%;
+    height: 20px;
+    position: absolute;
+    bottom: 60.5%;
+    }
+  
+  .square136{background-color: black;
+    width: 27%;
+    left: 21%;
+    bottom: 60.5%;
+    }
+  
+  .square137{background-color: red;
+    width: 27%;
+    left: 37%;
+    bottom: 60.5%;
+    }
+  
+  .square138{background-color: green;
+    width: 27%;
+    left: 53%;
+    bottom: 60.5%;
+    }
+  
+  .square139{background-color: blue;
+    width: 27%;
+    left: 69%;
+    bottom: 60.5%;
+    }
+  
+  .square140{background-color: white;
+    width: 10.5%;
+    right: 43px;
+    bottom: 60.5%;
+    }
+  
+  .square141{background-color: black;
+    width: 27%;
+    bottom: 58.3%;
+    }
+  
+  .square142{background-color: red;
+    width: 27%;
+    left: 22%;
+    bottom: 58.3%;
+    }
+  
+  .square143{background-color: green;
+    width: 27%;
+    left: 38%;
+    bottom: 58.3%;
+    }
+  
+  .square144{background-color: blue;
+    width: 27%;
+    left: 54%;
+    bottom: 58.3%;
+    }
+  
+  .square145{background-color: white;
+    width: 25%;
+    left: 70%;
+    bottom: 58.3%;
+    }
+  
+  .square146{background-color: black;
+    width: 9.5%;
+    right: 43px;
+    bottom: 58.3%;
+    }
+  
+  .square147{background-color: red;
+    width: 27%;
+    bottom: 56.1%;
+    }
+  
+  .square148{background-color: green;
+    width: 27%;
+    left: 23%;
+    bottom: 56.1%;
+    }
+  
+  .square149{background-color: blue;
+    width: 27%;
+    left: 39%;
+    bottom: 56.1%;
+    }
+  
+  .square150{background-color: white;
+    width: 27%;
+    left: 55%;
+    bottom: 56.1%;
+    }
+  
+  .square151{background-color: black;
+    width: 24%;
+    left: 71%;
+    bottom: 56.1%;
+    }
+  
+  .square152{background-color: red;
+    width: 8.5%;
+    right: 43px;
+    bottom: 56.1%;
+    }
+  
+  .square153{background-color: green;
+    width: 27%;
+    bottom: 53.9%;
+    }
+
+  .square154{ background-color: blue;
+    width: 27%;
+    bottom: 53.9%;
+    left: 24%;
+    }
+  
+  .square155{background-color: white;
+    width: 27%;
+    bottom: 53.9%;
+    left: 40%;
+    }
+  
+  .square156{background-color: black;
+    width: 27%;
+    bottom: 53.9%;
+    left: 56%;
+    }
+  
+  .square157{background-color: red;
+    width: 25%;
+    bottom: 53.9%;
+    right: 43px;
+    }
+  
+  .square158{background-color: green;
+    width: 7%;
+    bottom: 53.9%;
+    right: 43px;
+    }
+  
+  .square159{background-color: blue;
+    width: 22%;
+    bottom: 51.7%;
+    }
+  
+  .square160{background-color: white;
+    width: 22%;
+    bottom: 51.7%;
+    left: 25%;
+    }
+  
+  .square161{background-color: black;
+    width: 22%;
+    bottom: 51.7%;
+    left: 41%;
+    }
+  
+  .square162{background-color: red;
+    width: 22%;
+    bottom: 51.7%;
+    left: 57%;
+    }
+  
+  .square163{background-color: green;
+    width: 22%;
+    bottom: 51.7%;
+    right: 43px;
+    }
+  
+  .square164{background-color: blue;
+    width: 40%;
+    bottom: 49.5%;
+    }
+  
+  .square165{background-color: white;
+    width: 40%;
+    bottom: 49.5%;
+    left: 30%;
+    }
+  
+  .square166{background-color: black;
+    width: 40%;
+    bottom: 49.5%;
+    left: 56%;
+    }
+  
+  .square167{background-color: red;
+    width: 15%;
+    bottom: 49.5%;
+    right: 43px;
+    }
+  
+  .square168{background-color: green;
+    width: 40%;
+    bottom: 47.3%
+    }
+  
+  .square169{background-color: blue;
+    width: 40%;
+    bottom: 47.3%;
+    left: 35%;
+    }
+  
+  .square170{background-color: white;
+    width: 30%;
+    bottom: 47.3%;
+    right: 43px;
+    }
+  
+  .square171{background-color: black;
+    width: 40%;
+    bottom: 45.1%;
+    }
+  
+  .square172{background-color: red;
+    width: 40%;
+    bottom: 45.1%;
+    left: 35%;
+    }
+  
+  .square173{background-color: green;
+    width: 30%;
+    bottom: 45.1%;
+    right: 43px;
+    }
+  
+  .square174{background-color: blue;
+    width: 40%;
+    bottom: 42.9%;
+    }
+  
+  .square175{background-color: white;
+    width: 40%;
+    bottom: 42.9%;
+    left: 35%;
+    }
+  
+  .square176{background-color: black;
+    width: 30%;
+    bottom: 42.9%;
+    right: 43px;
+    }
+  
+  .square177{background-color: red;
+    width: 40%;
+    bottom: 40.7%;
+    }
+  
+  .square178{background-color: green;
+    width: 40%;
+    bottom: 40.7%;
+    left: 35%;
+    }
+  
+  .square179{background-color: blue;
+    width: 30%;
+    bottom: 40.7%;
+    right: 43px;
+    }
+  
+  .square180{background-color: white;
+    width: 40%;
+    bottom: 38.5%;
+    }
+  
+  .square181{background-color: black;
+    width: 40%;
+    bottom: 38.5%;
+    left: 35%;
+    }
+  
+  .square182{background-color: red;
+    width: 30%;
+    bottom: 38.5%;
+    right: 43px;
+    }
+  
+  .square183{background-color: green;
+    width: 40%;
+    bottom: 36.3%;
+    }
+  
+  .square184{background-color: blue;
+    width: 40%;
+    bottom: 36.3%;
+    left: 35%;
+    }
+  
+  .square185{background-color: white;
+    width: 30%;
+    bottom: 36.3%;
+    right: 43px;
+    }
+  
+  .square186{background-color: black;
+    width: 40%;
+    bottom: 34.2%;
+    }
+  
+  .square187{background-color: red;
+    width: 40%;
+    bottom: 34.2%;
+    left: 35%;
+    }
+  
+  .square188{background-color: green;
+    width: 30%;
+    bottom: 34.2%;
+    right: 43px;
+    }
+  
+  .square189{background-color: blue;
+    width: 40%;
+    bottom: 32%;
+    }
+  
+  .square190{background-color: white;
+    width: 40%;
+    bottom: 32%;
+    left: 35%;
+    }
+  
+  .square191{background-color: black;
+    width: 30%;
+    bottom: 32%;
+    right: 43px;
+    }
+  
+  .square192{background-color: red;
+    width: 40%;
+    bottom: 29.9%;
+    }
+  
+  .square193{background-color: green;
+    width: 40%;
+    bottom: 29.9%;
+    left: 35%;
+    }
+  
+  .square194{background-color: blue;
+    width: 30%;
+    bottom: 29.9%;
+    right: 43px;
+    }
+  
+  .square195{background-color: white;
+    width: 40%;
+    bottom: 27.8%;
+    }
+  
+  .square196{background-color: black;
+    width: 40%;
+    bottom: 27.8%;
+    left: 35%;
+    }
+  
+  .square197{background-color: red;
+    width: 30%;
+    bottom: 27.8%;
+    right: 43px;
+    }
+  
+  .square198{background-color: green;
+    width: 40%;
+    bottom: 25.6%;
+    }
+  
+  .square199{background-color: blue;
+    width: 40%;
+    bottom: 25.6%;
+    left: 35%;
+    }
+  
+  .square200{background-color: white;
+    width: 30%;
+    bottom: 25.6%;
+    right: 43px;
+    }
+  
+  .square201{background-color: black;
+    width: 40%;
+    bottom: 23.6%;
+    }
+  
+  .square202{background-color: red;
+    width: 40%;
+    bottom: 23.6%;
+    left: 35%;
+    }
+  
+  .square203{background-color: green;
+    width: 30%;
+    bottom: 23.6%;
+    right: 43px;
+    }
+  
+  .square204{background-color: blue;
+    width: 40%;
+    bottom: 21.5%;
+    }
+  
+  .square205{background-color: white;
+    width: 40%;
+    bottom: 21.5%;
+    left: 35%;
+    }
+  
+  .square206{background-color: black;
+    width: 30%;
+    bottom: 21.5%;
+    right: 43px;
+    }
+  
+  .square207{background-color: red;
+    width: 50%;
+    bottom: 19.3%;
+    }
+  
+  .square208{background-color: green;
+    width: 50%;
+    bottom: 19.3%;
+    right: 43px;
+    }
+  
+  .square209{background-color: blue;
+    width: 50%;
+    bottom: 17.3%;
+    }
+  
+  .square210{background-color: white;
+    width: 45%;
+    bottom: 17.3%;
+    right: 43px;
+    }
+  
+  .square211{background-color: black;
+    width: 50%;
+    bottom: 15.1%;
+    }
+  
+  .square212{background-color: red;
+    width: 50%;
+    bottom: 15.1%;
+    right: 43px;
+    }
+  
+  .square213{background-color: green;
+    width: 50%;
+    bottom: 12.9%;
+    }
+  
+  .square214{background-color: blue;
+    width: 45%;
+    bottom: 12.9%;
+    right: 43px;
+    }
+  
+  .square215{background-color: white;
+    width: 50%;
+    bottom: 10.8%;
+    }
+  
+  .square216{background-color: black;
+    width: 50%;
+    bottom: 10.8%;
+    right: 43px;
+    }
+  
+  .square217{background-color: red;
+    width: 50%;
+    bottom: 8.6%;
+    }
+  
+  .square218{background-color: green;
+    width: 45%;
+    bottom: 8.6%;
+    right: 43px;
+    }
+  
+  .square219{background-color: blue;
+    width: 50%;
+    bottom: 6.5%;
+    }
+  
+  .square220{background-color: white;
+    width: 50%;
+    bottom: 6.5%;
+    right: 43px;
+    }
+  
+  .square221{background-color: black;
+    width: 50%;
+    bottom: 4.6%;
+    }
+  
+  .square222{background-color: red;
+    width: 45%;
+    bottom: 4.6%;
+    right: 43px;
+    }
+   
+</style>
+<div class="frame">
+  <div class="square h20"></div>
+  <div class="square2 h20"></div>
+  <div class="square3 h20"> </div>
+  <div class="square4 h20"></div>
+  <div class="square5 h20"></div>
+  <div class="square6 h20"></div>
+  <div class="square7 h20"></div>
+  <div class="square8 h20"></div>
+  <div class="square9 h20"></div>
+  <div class="square10 h20"></div>
+  <div class="square11 h20"></div>
+  <div class="square12 h20"></div>
+  <div class="square13 h20"></div>
+  <div class="square14 h20"></div>
+  <div class="square15 h20"></div>
+  <div class="square16 h20"></div>
+  <div class="square17 h20"></div>
+  <div class="square18 h20"></div>
+  <div class="square19 h20"></div>
+  <div class="square20 h20"></div>
+  <div class="square21 h20"></div>
+  <div class="square22 h20"></div>
+  <div class="square23 h20"></div>
+  <div class="square24 h20"></div>
+  <div class="square25 h20"></div>
+  <div class="square26 h20"></div>
+  <div class="square27 h20"></div>
+  <div class="square28 h20"></div>
+  <div class="square29 h20"></div>
+  <div class="square30 h20"></div>
+  <div class="square31 h20"></div>
+  <div class="square32 h20"></div>
+  <div class="square33 h20"></div>
+  <div class="square34 h20"></div>
+  <div class="square35 h20"></div>
+  <div class="square36 h20"></div>
+  <div class="square37 h20"></div>
+  <div class="square38 h20"></div>
+  <div class="square39 h20"></div>
+  <div class="square40 h20"></div>
+  <div class="square41 h20"></div>
+  <div class="square42 h20"></div>
+  <div class="square43 h20"></div>
+  <div class="square44 h20"></div>
+  <div class="square45 h20"></div>
+  <div class="square46 h20"></div>
+  <div class="square47 h20"></div>
+  <div class="square48 h20"></div>
+  <div class="square49 h20"></div>
+  <div class="square50 h20"></div>
+  <div class="square51 h20"></div>
+  <div class="square52 h20"></div>
+  <div class="square53 h20"></div>
+  <div class="square54 h20"></div>
+  <div class="square55 h20"></div>
+  <div class="square56 h20"></div>
+  <div class="square57 h20"></div>
+  <div class="square58 h20"></div>
+  <div class="square59 h20"></div>
+  <div class="square60 h20"></div>
+  <div class="square61 h20"></div>
+  <div class="square62 h20"></div>
+  <div class="square63 h20"></div>
+  <div class="square64 h20"></div>
+  <div class="square65 h20"></div>
+  <div class="square66 h20"></div>
+  <div class="square67 h20"></div>
+  <div class="square68 h20"></div>
+  <div class="square69 h20"></div>
+  <div class="square70 h20"></div>
+  <div class="square71 h20"></div>
+  <div class="square72 h20"></div>
+  <div class="square73 h20"></div>
+  <div class="square74 h20"></div>
+  <div class="square75 h20"></div>
+  <div class="square76 h20"></div>
+  <div class="square77 h20"></div>
+  <div class="square78 h20"></div>
+  <div class="square79 h20"></div>
+  <div class="square80 h20"></div>
+  <div class="square81 h20"></div>
+  <div class="square82 h20"></div>
+  <div class="square83 h20"></div>
+  <div class="square84 h20"></div>
+  <div class="square85 h20"></div>
+  <div class="square86 h20"></div>
+  <div class="square87 h20"></div>
+  <div class="square88 h20"></div>
+  <div class="square89 h20"></div>
+  <div class="square90 h20"></div>
+  <div class="square91 h20"></div>
+  <div class="square92 h20"></div>
+  <div class="square93 h20"></div>
+  <div class="square94 h20"></div>
+  <div class="square95 h20"></div>
+  <div class="square96 h20"></div>
+  <div class="square97 h20"></div>
+  <div class="square98 h20"></div>
+  <div class="square99 h20"></div>
+  <div class="square100 h20"></div>
+  <div class="square101 h20"></div>
+  <div class="square102 h20"></div>
+  <div class="square103 h20"></div>
+  <div class="square104 h20"></div>
+  <div class="square105 h20"></div>
+  <div class="square106 h20"></div>
+  <div class="square107 h20"></div>
+  <div class="square108 h20"></div>
+  <div class="square109 h20"></div>
+  <div class="square110 h20"></div>
+  <div class="square111 h20"></div>
+  <div class="square112 h20"></div>
+  <div class="square113 h20"></div>
+  <div class="square114 h20"></div>
+  <div class="square115 h20"></div>
+  <div class="square116 h20"></div>
+  <div class="square117 h20"></div>
+  <div class="square118 h20"></div>
+  <div class="square119 h20"></div>
+  <div class="square120 h20"></div>
+  <div class="square121 h20"></div>
+  <div class="square122 h20"></div>
+  <div class="square123 h20"></div>
+  <div class="square124 h20"></div>
+  <div class="square125 h20"></div>
+  <div class="square126 h20"></div>
+  <div class="square127 h20"></div>
+  <div class="square128 h20"></div>
+  <div class="square129 h20"></div>
+  <div class="square130 h20"></div>
+  <div class="square131 h20"></div>
+  <div class="square132 h20"></div>
+  <div class="square133 h20"></div>
+  <div class="square134 h20"></div>
+  <div class="square135 h20"></div>
+  <div class="square136 h20"></div>
+  <div class="square137 h20"></div>
+  <div class="square138 h20"></div>
+  <div class="square139 h20"></div>
+  <div class="square140 h20"></div>
+  <div class="square141 h20"></div>
+  <div class="square142 h20"></div>
+  <div class="square143 h20"></div>
+  <div class="square144 h20"></div>
+  <div class="square145 h20"></div>
+  <div class="square146 h20"></div>
+  <div class="square147 h20"></div>
+  <div class="square148 h20"></div>
+  <div class="square149 h20"></div>
+  <div class="square150 h20"></div>
+  <div class="square151 h20"></div>
+  <div class="square152 h20"></div>
+  <div class="square153 h20"></div>
+  <div class="square154 h20"></div>
+  <div class="square155 h20"></div>
+  <div class="square156 h20"></div>
+  <div class="square157 h20"></div>
+  <div class="square158 h20"></div>
+  <div class="square159 h20"></div>
+  <div class="square160 h20"></div>
+  <div class="square161 h20"></div>
+  <div class="square162 h20"></div>
+  <div class="square163 h20"></div>
+  <div class="square164 h20"></div>
+  <div class="square165 h20"></div>
+  <div class="square166 h20"></div>
+  <div class="square167 h20"></div>
+  <div class="square168 h20"></div>
+  <div class="square169 h20"></div>
+  <div class="square170 h20"></div>
+  <div class="square171 h20"></div>
+  <div class="square172 h20"></div>
+  <div class="square173 h20"></div>
+  <div class="square174 h20"></div>
+  <div class="square175 h20"></div>
+  <div class="square176 h20"></div>
+  <div class="square177 h20"></div>
+  <div class="square178 h20"></div>
+  <div class="square179 h20"></div>
+  <div class="square180 h20"></div>
+  <div class="square181 h20"></div>
+  <div class="square182 h20"></div>
+  <div class="square183 h20"></div>
+  <div class="square184 h20"></div>
+  <div class="square185 h20"></div>
+  <div class="square186 h20"></div>
+  <div class="square187 h20"></div>
+  <div class="square188 h20"></div>
+  <div class="square189 h20"></div>
+  <div class="square190 h20"></div>
+  <div class="square191 h20"></div>
+  <div class="square192 h20"></div>
+  <div class="square193 h20"></div>
+  <div class="square194 h20"></div>
+  <div class="square195 h20"></div>
+  <div class="square196 h20"></div>
+  <div class="square197 h20"></div>
+  <div class="square198 h20"></div>
+  <div class="square199 h20"></div>
+  <div class="square200 h20"></div>
+  <div class="square201 h20"></div>
+  <div class="square202 h20"></div>
+  <div class="square203 h20"></div>
+  <div class="square204 h20"></div>
+  <div class="square205 h20"></div>
+  <div class="square206 h20"></div>
+  <div class="square207 h20"></div>
+  <div class="square208 h20"></div>
+  <div class="square209 h20"></div>
+  <div class="square210 h20"></div>
+  <div class="square211 h20"></div>
+  <div class="square212 h20"></div>
+  <div class="square213 h20"></div>
+  <div class="square214 h20"></div>
+  <div class="square215 h20"></div>
+  <div class="square216 h20"></div>
+  <div class="square217 h20"></div>
+  <div class="square218 h20"></div>
+  <div class="square219 h20"></div>
+  <div class="square220 h20"></div>
+  <div class="square221 h20"></div>
+  <div class="square222 h20"></div>
+  <div class="square223 h20"></div>
+  <div class="square224 h20"></div>
+  <div class="square225 h20"></div>
+  <div class="square226 h20"></div>
+  <div class="square227 h20"></div>
+  <div class="square228 h20"></div>
+  <div class="square229 h20"></div>
+  <div class="square230 h20"></div>
+  <div class="square231 h20"></div>
+  <div class="square232 h20"></div>
+  <div class="square233 h20"></div>
+  <div class="square234 h20"></div>
+  <div class="square235 h20"></div>
+  <div class="square236 h20"></div>
+  <div class="square237 h20"></div>
+  <div class="square238 h20"></div>
+  <div class="square239 h20"></div>
+  <div class="square240 h20"></div>
+  <div class="square241 h20"></div>
+  <div class="square242 h20"></div>
+  <div class="square243 h20"></div>
+  <div class="square244 h20"></div>
+  <div class="square245 h20"></div>
+  <div class="square246 h20"></div>
+  <div class="square247 h20"></div>
+  <div class="square248 h20"></div>
+  <div class="square249 h20"></div>
+  <div class="square250 h20"></div>
+  <div class="square251 h20"></div>
+  <div class="square252 h20"></div>
+  <div class="square253 h20"></div>
+</div>
+  
